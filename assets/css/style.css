@@ -43,8 +43,14 @@ main{
 
 }
 
-footer{
-    background-color: orange;
+/* Footer */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+
 }
 
 /*  <weight>: Use a value from 200 to 700 */
@@ -158,6 +164,13 @@ h1{
   .nav-toggle-label{
     font-size: 2rem;
 
+  }
+  .footer-img{
+    height: 30px;
+    width: 30px;
+    padding: 5%;
+    
+    
   }
   
   /*  Media query : tablets and larger (768 and up) */
