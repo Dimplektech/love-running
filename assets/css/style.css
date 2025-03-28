@@ -263,6 +263,15 @@ main{
     /* override the heading color ser in general styles */
     color: white;
   }
+  /* Gallery  Page */
+  #photos img{
+    width: 100%;
+    line-height:1em;
+  }
+
+  #photos{
+    line-height: 0;
+  } 
   
 
   /*  Media query : tablets and larger (768 and up) */
